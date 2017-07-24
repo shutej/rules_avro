@@ -1,4 +1,4 @@
-_avro_filetype = FileType([".avsc"])
+_avro_filetype = FileType([".avsc", ".avdl"])
 
 def _commonprefix(m):
     if not m: return ''
